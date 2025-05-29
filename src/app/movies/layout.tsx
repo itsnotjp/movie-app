@@ -1,0 +1,25 @@
+import React from 'react';
+import Nav from '@/components/Nav';
+import Footer from '@/components/Footer';
+
+export const metadata = {
+    layout: false
+};
+
+export default function MoviesLayout({
+    children,
+}: {
+    children: React.ReactNode;
+}) {
+    return (
+        <>
+            <header>
+                <Nav className=" border-gray-300/10 " />
+            </header>
+            <main className="max-w-400 mx-auto">
+                {children}
+            </main>
+            <Footer></Footer>
+        </>
+    );
+}

@@ -1,4 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Movie App
+
+A modern movie application built with [Next.js](https://nextjs.org), designed to showcase movies and their details using The Movie Database (TMDB) API.
+
+## Features
+
+- Browse popular movies
+- Search for specific movies
+- View detailed movie information
+- Responsive design for all devices
+- Modern UI with Tailwind CSS
+- Real-time movie data from TMDB API
+- Trending movies and TV shows
+- Detailed cast and crew information
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org) - React framework for production
+- [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org) - Static type checking
+- [TMDB API](https://www.themoviedb.org/documentation/api) - Movie and TV show data provider
+
 
 ## Getting Started
 
